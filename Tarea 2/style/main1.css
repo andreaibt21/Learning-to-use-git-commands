@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1{
+   background: url(/img/design1_image1.jpg);
+   height: 340px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+ 
+   font-size: 45px;
+   padding-left: 20px;
+   padding-top: 15px;
+}
+main, nav{
+   float: left;
+   margin-bottom: 50px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: black;
+}
+.current{
+    text-decoration: underline;
+}
+main{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 70%;
+}
+.logo{
+    position: absolute;
+    top: 320px;
+    width: 150px;
+    left: 890px;
+    z-index: 1;
+}
+.dates{
+    font-style: italic;
+}
+.places{
+    margin-left: 20px;
+}
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    border-style:  outset;
+
+}
+p{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#mainAbout>h3{
+    font-size: 25px;
+}
+#mainAbout>p{
+    margin-left: 20px;
+}
+.gallery{
+    display: none;
+}
+#email{
+    display: none;
+}
+.icon{
+    display: none;
+}
