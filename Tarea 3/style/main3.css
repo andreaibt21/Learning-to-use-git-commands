@@ -184,7 +184,7 @@ dt{
     color: #033949;
 }
 
-/*Game*/
+/*Game Schedule*/
 
 #main-game{
     padding: 30px;
@@ -207,7 +207,7 @@ table {
 }
 
 th,td {
-  border: 3px solid #57e644;
+  
   padding: 10px;
 }
 thead{
@@ -243,6 +243,33 @@ margin: 10px 0 10px 30px;
     background-color: rgba(28, 76, 92, 0.644);
     width: 100%;
 }
+.double-line>tr:nth-child(1), .double-line>tr:nth-child(2){
+    background-color: #57e64459;
+}
+.double-line>tr:nth-child(3) ,.double-line>tr:nth-child(4){
+    background-color: #0339493f;
+}
+.double-line>tr:nth-child(5), .double-line>tr:nth-child(6){
+    background-color: #57e64459;
+}
+.double-line>tr:nth-child(7) ,.double-line>tr:nth-child(8){
+    background-color: #0339493f;
+}
+.double-line>tr:nth-child(9), .double-line>tr:nth-child(10){
+    background-color: #57e64459;
+}
+.one-line>tr:nth-child(1),
+.one-line>tr:nth-child(3),
+.one-line>tr:nth-child(5) {
+    background-color: #57e64459;
+}
+.one-line>tr:nth-child(2),
+.one-line>tr:nth-child(4),
+.one-line>tr:nth-child(6) {
+    background-color: #0339493f;
+}
+
+
 
 /*Contact*/
 
