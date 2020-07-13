@@ -16,7 +16,7 @@ header {
 }
 
 main {
-    background-image: url("/img/jasper-garratt-eOTjYvDpvDA-unsplash.jpg");
+    background-image: url("../img/jasper-garratt-eOTjYvDpvDA-unsplash.jpg");
     background-position: center;
     color: black;
     font-family: 'Montserrat', sans-serif;
