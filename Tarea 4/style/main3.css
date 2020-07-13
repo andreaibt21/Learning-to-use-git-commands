@@ -8,7 +8,7 @@
 /*Header*/
 
 header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/emilio-garcia-AWdCgDDedH0-unsplash.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/emilio-garcia-AWdCgDDedH0-unsplash.jpg");
     height: 50vh;
     background-size: cover;
     background-position: top;
@@ -16,7 +16,7 @@ header {
 }
 
 main {
-    background-image: url(/img/jasper-garratt-eOTjYvDpvDA-unsplash.jpg);
+    background-image: url("/img/jasper-garratt-eOTjYvDpvDA-unsplash.jpg");
     background-position: center;
     color: black;
     font-family: 'Montserrat', sans-serif;
